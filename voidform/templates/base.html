@@ -9,11 +9,12 @@
 	<meta name="keywords" content=""/>
 	<meta http-equiv="content-type" content="application/xhtml+xml;charset=utf-8"/>
 	
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|EB+Garamond|Comfortaa:400,700|Roboto:400,700|Roboto+Condensed:400,700|Roboto+Slab:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>    
+    
 	<link rel="stylesheet" href="{% static 'css/basic.css' %}"/>
 	<link rel="stylesheet" href="{% static 'css/template.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/interface.css' %}"/>
 	<link rel="stylesheet" href="{% static 'css/pages.css' %}"/>
-	
-
 	
 	
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -22,18 +23,31 @@
 	
 </head>
 <body>
+<div id="bg-left">z</div>    
+<div id="bg-right"></div>    
+    
+
+<div id="page-wrapper-outer">
+    <div id="page-wrapper-inner"></div>    
+</div>
+
+        
+
 
 <div id="all">
 <div id="page">
 
 <div id="header">
+    <a href="/" class="logo"></a>
+    
 	<div class="menu">
-		<a href="/">Home</a>
-		<a href="{% url 'karhu-blog-feed' %} ">Бложик</a>
-		<a href="{% url 'karhu-lineup-feed' %} ">Люди</a>
-		<a href="{% url 'karhu-events-feed' %} ">Календарь</a>
-		<a href="{% url 'karhu-gallery-feed' %} ">Галерейка</a>
-		<a href="{% url 'karhu-music-feed' %} ">Митол</a>
+		<a class="ever" href="/">Home</a>
+		<a class="ever" href="{% url 'karhu-blog-feed' %} ">Бложик</a>
+		<a class="ever" href="{% url 'karhu-lineup-feed' %} ">Люди</a>
+		<a class="ever" href="{% url 'karhu-events-feed' %} ">Календарь</a>
+		<a class="ever" href="{% url 'karhu-gallery-feed' %} ">Галерейка</a>
+		<a class="ever" href="{% url 'karhu-music-feed' %} ">Митол</a>
+        <a class="ever" href="/weneedyou">Вокалер</a>
 	</div>
 </div>
 
@@ -41,7 +55,6 @@
 	<div id="mainwrapper">
 		<div id="content">
 		<div id="slot">
-				
 				{% block content %}
 					This part of base.html must be replaced by some template.
 				{% endblock %}		
@@ -54,7 +67,6 @@
 
 <div id="footer">
 	<div id="footerwrapper">
-	{% render_slot 1 %}
 	</div>	
 </div>
 
