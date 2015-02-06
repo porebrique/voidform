@@ -1,12 +1,9 @@
 {% extends 'base.html' %} 
 
+{% load owntags %}
+
 {% block content %}
 
-
-
-<h1>Home</h1>
-
-Yep, it is index page
-
+{% render_slot 1 %}
 
 {% endblock %} 

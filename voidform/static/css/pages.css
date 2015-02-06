@@ -12,5 +12,53 @@
 
 .blog .zoom .date {
 	font-size: 1.2em;
-	
+}
+
+
+.lineup .item {
+    font-size: 1.2em;
+    text-align: center;
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.lineup .item .img {
+    
+}
+
+.lineup .item .info {
+}
+
+
+.lineup .item .name {
+    font-weight: bold;
+}
+
+
+.lineup .item .role {
+}
+
+/* ----------------- */
+.gallery .item {
+    float: left;
+    text-align: center;
+}
+.gallery-folders .item {
+
+    margin: 0 4em 3em 0;
+    
+}
+.gallery-folders .item .title {
+    margin-top: 0.5em;
+    font-size: 1.4em;
+}
+
+.gallery-folders .item {
+}
+
+.gallery-folders .item {
+}
+
+.gallery-folder .item {
+    margin: 0 1.5em 2em 1.5em;
 }

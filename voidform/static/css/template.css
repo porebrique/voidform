@@ -1,41 +1,123 @@
+/*
+font-family: 'PT Sans Narrow', sans-serif; плотный, для читабельных размеров надо сильно увеличивать
+font-family: 'Comfortaa', cursive;  неок на мелких кеглях, бодровато смотрится, но на заголовках вроде ничо
+font-family: 'Roboto', sans-serif;  на мелких кеглях разборчивыЙ, на крупных скучен
+font-family: 'Roboto Condensed', sans-serif;  можно уплотнить крупные кегли, на мелких всё слипается
+font-family: 'Roboto Slab', serif;  засечный робото, ничо так, и на заголовках
+*/
+
 body {
 
-	background: #00aa77 url("../img/bg.png") repeat-x fixed;
+    background: black;
+/*    letter-spacing: 0.04em;*/
+    
+    color: #9C7443;
+    font-family: "roboto";
 }
 
+#bg-left, #bg-right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+/*    background: url("../img/bg-big.jpg") no-repeat left -400px;*/
+    background: url("../img/bg-big.jpg") no-repeat left top;
+    
+}
+#bg-right {
+    left: auto;
+    right: 0;
+/*    background-position: right -400px;*/
+    background-position: right top;
+}
+
+#page-wrapper-outer {
+    width: 80em;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    
+    z-index: 2;
+}
+#page-wrapper-inner {
+    background: black;
+    box-shadow: 0 0 10px rgba(196, 186, 133, 0.4);
+/*    background: linear-gradient(to left, rgba(0,0,0,0.4) 0%, black 50%, rgba(0,0,0,0.4) 100%);*/
+    width: 80em;
+    background: relative;
+    position: relative;
+    top: 0;
+    height: 100%;
+    left: -40em;
+}
 
 #all {
 	margin: 0 auto;
 	width: 80em;
+    position: relative;
+    z-index: 3;
+    
 }
+
+
 
 #page {
 	float: left;
 	width: 100%;
-	margin: 3em 0;
 }
 
 #main, #header .menu {
-	background: #F7FCFF;
-	border-radius: 0.5em;
-	box-shadow: 5px 5px 5px rgba(0,66,102, 0.5);
+/*	background: #F7FCFF;*/
+/*	border-radius: 0.5em;*/
+/*	box-shadow: 5px 5px 5px rgba(0,66,102, 0.5);*/
 	
 }
 
+#header {
+    padding-top: 10px;
+    height: 220px;
+    position: relative;
+    background: url("../img/bg-header.jpg") no-repeat center -120px;
+}
+#header .logo {
+    background: url("../img/logo.png") no-repeat center -15px;
+    height: 150px;
+    width: 330px;
+    display: block;
+    margin: 0 auto;
+}
+
 #header .menu {
+    border: #44331F solid;
+    border-width: 1px 0;
+    position: absolute;
+    bottom: 0;
+    widtH: 100%;
 	text-align: center;
-	padding: 1em 0;
-	margin-bottom: 1em;
+	
+/*    background: #190F01*/
+    background: rgba(0,0,0,0.7);
+    
+    
 }
 
 #header .menu a {
-	padding: 0 1em; 
+/*    line-height: 2em;*/
+    font-family: pt sans narrow;
+	padding: 0.5em 1em; 
 	display: inline-block;
-	color: #1563A2;
-	font-weight: bold;
 	font-size: 1.6em;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    font-weight: bold;
 }
 
+#header .menu a:hover {
+    background: #654324;
+    color: #150E08;
+}
 #mainwrapper {
 	margin: 0em 4em;
 	padding: 1em 0 2em 0;
@@ -49,9 +131,3 @@ body {
 }
 
 
-p, ul {
-	font-size: 1.2em;	
-}
-h1 {
-	margin: 0 0 1em 0;
-}
