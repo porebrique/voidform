@@ -1,0 +1,21 @@
+
+[
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "admin", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2014-02-27T11:05:27.841Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$bXgm4OsRKDqt$sOpbk/fqGfUHd1303zWevsdlinJemK2qi0TILMKBg8I=", 
+        "email": "fake@admin.ololo", 
+        "date_joined": "2014-02-27T11:05:27.841Z"
+    }
+}
+]
