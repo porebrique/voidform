@@ -80,6 +80,7 @@ body {
     height: 220px;
     position: relative;
     background: url("../img/bg-header.jpg") no-repeat center -120px;
+    border-bottom: 1px  #44331F solid;;
 }
 #header .logo {
     background: url("../img/logo.png") no-repeat center -15px;
@@ -90,8 +91,8 @@ body {
 }
 
 #header .menu {
-    border: #44331F solid;
-    border-width: 1px 0;
+    border-top: #44331F solid;
+/*    border-width: 1px 0;*/
     position: absolute;
     bottom: 0;
     widtH: 100%;
@@ -99,6 +100,7 @@ body {
 	
 /*    background: #190F01*/
     background: rgba(0,0,0,0.7);
+    display: none;
     
     
 }
@@ -121,6 +123,7 @@ body {
 #mainwrapper {
 	margin: 0em 4em;
 	padding: 1em 0 2em 0;
+    
 }
 
 #footer {

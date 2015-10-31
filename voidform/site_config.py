@@ -7,7 +7,7 @@ from karhu.libs.bcm.utils.tools import merge_dicts
 
 ENABLED_APPS = {
                 'lineup': {
-                          'enabled': True,
+                          'enabled': False,
                            'menu_name': 'Band',
                            'full_name': 'Current Lineup'
                            },

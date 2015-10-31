@@ -62,3 +62,19 @@
 .gallery-folder .item {
     margin: 0 1.5em 2em 1.5em;
 }
+
+
+.two-players {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin: 2em 0;
+}
+
+.two-players .half {
+    float: left;
+    width: 49%;
+}
+.two-players .half.first {
+    margin-right: 2%;
+}
