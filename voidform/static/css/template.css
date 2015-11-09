@@ -87,7 +87,7 @@ body {
     height: 150px;
     width: 330px;
     display: block;
-    margin: 0 auto;
+    margin: 0.3rem auto 0 auto;
 }
 
 #header .menu {
@@ -120,6 +120,23 @@ body {
     background: #654324;
     color: #150E08;
 }
+
+#header .socicons {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    font-size: 2rem;
+}
+
+#header .socicons a {
+    opacity: 0.7;
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #B28F5E;
+}
+#header .socicons a:hover {
+    opacity: 1;
+}
 #mainwrapper {
 	margin: 0em 4em;
 	padding: 1em 0 2em 0;
@@ -131,6 +148,9 @@ body {
 	color: #F7FCFF;
 	padding: 1em 0;
 	font-size: 1.2em;
+    float: left;
+    width: 100%;
+    min-height: 2rem;
 }
 
 
