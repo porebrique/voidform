@@ -17,6 +17,7 @@ h1 {
 
 p, ul {
 	font-size: 1.6em;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -26,5 +27,6 @@ p, li {
 
 
 ul {
-    list-style-position: inside;
+    list-style-position: outside;
+    margin-left: 1rem;
 }
