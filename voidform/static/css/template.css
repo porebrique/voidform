@@ -127,6 +127,10 @@ body {
     right: 1rem;
     font-size: 2rem;
 }
+#header .socicons .shops {
+}
+#header .socicons .shops a {
+}
 
 #header .socicons a {
     opacity: 0.7;
