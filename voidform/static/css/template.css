@@ -121,7 +121,7 @@ body {
     color: #150E08;
 }
 
-#header .socicons {
+#header .icon-menu {
     position: absolute;
     bottom: 0.5rem;
     right: 0.5rem;
@@ -129,25 +129,30 @@ body {
     font-size: 1.2rem;
 }
 
-#header .socicons .social {
+#header .icon-menu .section-title {
+    display: block;
+    font-size: 1rem;
+}
+
+#header .icon-menu .social {
 
 }
 
-#header .socicons .shops {
+#header .icon-menu .shops {
     float: right;
 }
 
 
-#header .socicons .shops a {
+#header .icon-menu .shops a {
 }
 
-#header .socicons a {
+#header .icon-menu a {
     opacity: 0.85;
     text-decoration: none;
     margin-left: 1rem;
     color: #B28F5E;
 }
-#header .socicons a:hover {
+#header .icon-menu a:hover {
     opacity: 1;
 }
 #mainwrapper {
