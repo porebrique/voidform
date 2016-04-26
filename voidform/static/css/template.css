@@ -131,10 +131,14 @@ body {
 
 #header .icon-menu .section-title {
     display: block;
-    font-size: 1rem;
+    font-family: comfortaa;
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1.3rem;
 }
 
-#header .icon-menu .social {
+#header .icon-menu .socials {
+    float: left;
 
 }
 
