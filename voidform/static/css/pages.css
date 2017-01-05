@@ -1,17 +1,17 @@
 .blog {
-	
+
 }
 
 .blog .feed {
-	
+
 }
 
 .blog .zoom {
-	
+
 }
 
 .blog .zoom .date {
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 
@@ -23,7 +23,7 @@
 }
 
 .lineup .item .img {
-    
+
 }
 
 .lineup .item .info {
@@ -46,7 +46,7 @@
 .gallery-folders .item {
 
     margin: 0 4em 3em 0;
-    
+
 }
 .gallery-folders .item .title {
     margin-top: 0.5em;
@@ -73,8 +73,12 @@
 
 .two-players .half {
     float: left;
-    width: 49%;
+    width: 33%;
 }
 .two-players .half.first {
-    margin-right: 2%;
+    /*margin-right: 2%;*/
+}
+
+.two-players .half.middle {
+    margin: 0 0.5%;
 }
